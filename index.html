@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- cssFile -->
+    <link rel="stylesheet" href="css/main.css">
+    
+    <!-- favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
+    <link rel="manifest" href="favicons/site.webmanifest">
+    <link rel="mask-icon" href="favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+</head>
+<body>
+    <main>
+        <div class="mainContainer">
+            <div class="heroBlock">
+                <div class="backgroundImg"></div>
+                <div class="brand">
+                    <div class="logo">
+                        <img src="images/KBNOnewLogo.png" alt="" class="emblem">
+                        <p class="brandName">kbno.</p>
+                    </div>
+                </div>
+                <div class="heroFooter">
+                    <p class="footer">Photo by <a href="https://unsplash.com/@hngstrm?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Henry & Co.</a> on <a href="https://unsplash.com/s/photos/brick-wall?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></p>
+                </div> <!--end heroFooter -->
+            </div> <!--end heroBlock -->
+            <div class="infoBlock">
+                <div class="infoHeader">
+                    <p class="description">This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up now to get started!<br><br>You <i>know</i> you want to.</i></p>
+                </div>
+                <div class="infoInput">
+                    <div class="inputHeader">
+                        <p>lets do this!</p>
+                    </div>
+                    <div class="formContainer">
+                        <form action="#" id="kbnoForm">
+                            <div>
+                                <label for="first_name">FIRST NAME</label>
+                                <input type="text" id="first_name" name="fn" required>
+                                <div class="error" id="fn-error"></div>
+                            </div>
+                            <div>
+                                <label for="last_name">LAST NAME</label>
+                                <input type="text" id="last_name" name="ln" required>
+                                <div class="error" id="ln-error"></div>
+                            </div>
+                            <div>
+                                <label for="email_form">EMAIL</label>
+                                <input type="email" id="email_form" name="eml" autocomplete="off" required>
+                                <div class="error" id="email-error"></div>
+                            </div>
+                            <div>
+                                <label for="tel_form">PHONE NUM</label>
+                                <input type="tel" id="tel_form" name="tele" pattern="[0-9]{10}" placeholder="XXXXXXXXXX" required>
+                                <div class="error" id="tel-error"></div>
+                            </div>
+                            <div>
+                                <label for="pswd_form">PASSWORD</label>
+                                <input type="password" id="pswd" name="pswd" required>
+                                <div class="error" id="pswd-error"></div>
+                            </div>
+                            <div>
+                                <label for="pswdC_form">CONFIRM PASSWORD</label>
+                                <input type="password" id="pswdC_form" name="pswdC" required>
+                                <div class="error" id="pswd-error"></div>
+                            </div>
+                        </form>
+                    </div><!--end formContainer -->
+                </div><!--end infoInput -->
+                <div class="infoFooter">
+                    <div class="footerLinks">
+                        <button type="submit" form="kbnoForm">create account</button>
+                        <p class="loginReminder">Already have an account? <a href=":root">Log in!</a></p>
+                    </div>
+                </div>
+                
+            </div><!--end infoBlock -->
+        </div> <!--end mainContainer -->
+    </main><!--end main -->
+</body>
+</html>
