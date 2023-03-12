@@ -1,0 +1,73 @@
+@font-face {
+  font-family: "De Valencia";
+  src: url("../fonts/de-valencia-beta.otf");
+}
+@font-face {
+  font-family: "Meedori light";
+  src: url("../fonts/meedori-sans-light.ttf");
+}
+@font-face {
+  font-family: "Meedori";
+  src: url("../fonts/meedori-sans-regular.ttf");
+}
+@font-face {
+  font-family: "Meedori bold";
+  src: url("../fonts/meedori-sans-bold.ttf");
+}
+html, body {
+  margin: 0px;
+  padding: 0px;
+}
+
+html body {
+  margin: 0px;
+  padding: 0px;
+  height: 100vh;
+  width: 100vw;
+}
+
+.mainContainer {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+}
+
+.mainContainer .heroBlock {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 100vh;
+  background: url("../images/brickShadow.jpg");
+  background-size: cover;
+}
+.mainContainer .heroBlock .brand {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 2;
+}
+.mainContainer .heroBlock .emblem {
+  width: 5rem;
+}
+.mainContainer .heroBlock .brandName {
+  font-family: "De Valencia";
+  font-size: 5rem;
+  color: #f9f6ee;
+}
+.mainContainer .heroBlock .heroFooter {
+  position: absolute;
+  bottom: 0;
+  font-size: 0.5rem;
+  font-family: "Meedori bold";
+  color: #fffff0;
+}
+.mainContainer .heroBlock .heroFooter a {
+  text-decoration: none;
+  color: rgb(42, 127, 255);
+}/*# sourceMappingURL=main.css.map */
