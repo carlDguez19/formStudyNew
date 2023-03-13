@@ -42,6 +42,7 @@ html body {
   height: 100vh;
   background: url("../images/brickShadow.jpg");
   background-size: cover;
+  position: relative;
 }
 .mainContainer .heroBlock .brand {
   width: 100%;
@@ -62,7 +63,7 @@ html body {
 }
 .mainContainer .heroBlock .heroFooter {
   position: absolute;
-  bottom: 0;
+  bottom: 0px;
   font-size: 0.5rem;
   font-family: "Meedori bold";
   color: #fffff0;
@@ -171,15 +172,38 @@ html body {
     width: 100vw;
     height: 20em;
   }
+  .heroFooter p {
+    position: relative;
+    bottom: 0;
+  }
   .infoBlock .infoHeader, .infoInput, .infoFooter .footerLinks {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 90vw;
+    width: 60vw;
+    margin-left: 15vw;
+    text-align: center;
   }
   .infoInput {
     position: relative;
+    margin-left: 10vw;
+    text-align: center;
+  }
+  .infoInput form div {
     margin-left: 10%;
+  }
+  .footerLinks button {
+    margin-left: -10vw;
+  }
+}
+@media screen and (max-width: 700px) {
+  .infoInput form div {
+    margin-left: -5%;
+  }
+}
+@media screen and (max-width: 580px) {
+  .infoInput form div {
+    margin-left: -10%;
   }
 }/*# sourceMappingURL=main.css.map */
